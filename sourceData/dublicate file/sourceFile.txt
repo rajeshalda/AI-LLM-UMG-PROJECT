@@ -1,0 +1,314 @@
+Power BI Licenses
+
+
+
+Enable Power Bi
+1 Assigning Power Bi license to user.
+Pre-requisite: - For these kind of tickets pre-approved tasks will open, incident will not work in this case.
+
+1. Assigning Licenses
+These are the steps to follow to assign license:
+
+
+Steps
+1) This is the link to redirect admin centre->  admin.microsoft.com 
+2) Open Active Users.
+3) Then select the user you want to give license.
+4) A profile box will open and select the licenses and apps tab.
+5) Here you will see different licenses but you have to select the Power Bi license only.
+6) Then click on Save changes.
+
+
+---------------------------------------------------------------------------------------------------
+
+PowerApps Licenses
+
+
+
+Enable Power
+1 Assigning PowerApps license to user.
+Pre-requisite:- For these kind of tickets pre-approved tasks will open, incident will not work in this case.
+
+2. Assigning Licenses
+These are the steps to follow to assign license:
+
+
+Steps
+1. This is the link to redirect admin centre->  admin.microsoft.com 
+2. Open Active Users.
+3. Then select the user you want to give license.
+4. A profile box will open and select the licenses and apps tab.
+5. Here you will see different licenses but you have to select the PowerApps license only.
+6. Then click on Save changes.
+
+
+---------------------------------------------------------------------------------------------------
+
+Microsoft E3 Licenses
+
+
+
+What to do
+ Assign E3 licenses to User Account.
+
+These are the steps to follow to assign E3 licenses to user.
+
+
+Steps:
+1) This is the link to redirect Microsoft 365 admin center -> https://admin.microsoft.com/Adminportal?#/homepage
+2) Click on Azure Active Directory. (By clicking you are redirect to Microsoft Entra admin center Page)
+3) Click on Group >> All group.
+4) In search Box search for AAD-E3.
+5) Select AAD-O365Licenses-E3-Germany for Germany region Users account.   
+OR
+Select AAD-O365Licenses-E3-RestOfWorld for rest of other region users account of the world.
+6) By selecting you are entering into above page.
+7) Then click on Members >> + Add members to add user account.
+8) Then pop up will come on right side of the screen. In Search box enter the user account name, then select the user.
+9) Then click on below Select button.
+
+
+--------------------------------------------------------------------------------------------------
+
+
+GCP Creation
+
+
+GCP Account(Google Cloud Platform)
+1 Creating a GCP account.
+
+1. Log into Server.
+2. Go to Original OU of exiting User to create exiting user GCP account.
+3. In OU go to Users, To create new user click on (New > User).
+4. Insert the details of user and select Domain name provided by user.
+
+(NOTE: – In Full Name insert – Second name.First name(GCP)  | In User Logon Name insert  – First name.Second name.GCP)
+For Windows 2000 Logon Name Insert – Last name 6 characters and First name 1st character OR pick logon name of user from normal account of user.
+5. Click on Next.
+6. Insert password and Uncheck the Boxes. (Password would be shared to user Via Zoom)
+7. Click Next > Finish.
+8. After that go to user you have just created, click on User. Go to properties (General).
+9. Change Display name (First name.Second name(Google Apps) ) & Description (SNOW Creation - TicketNO).
+10. Click Apply.
+11. After that change C Name
+Go to Account > copy windows 2000 Logon name.
+12. And Rename user C Name, Click OK
+13. Also,In Organization section, copy details (Job Title, Department, Company) of existing global account of user into the newly created user account, Click Apply>Ok.
+14. After that verify all the attributes of Attribute Editor are filled or not, Take reference from previously created GCP user Account. (Make sure Employee Type & Employee ID are filled)
+15. After that change Proxy Address, Mail, MailNickname of created user account.
+To set Proxy Address, pick value from User logon Name.
+16. Click Add > Ok.
+17.  To set mail attribute, Click OK > Apply> OK. (Pick value from User logon Name)
+18. To Set mailNickname Attribute, Click OK > Apply > OK. (Pick value from windows 2000 user logon name.)
+
+At the end Verify all the Details and you are good to go.
+
+
+
+Add Members in Group from Outlook (O365 Group)
+Steps
+1)  Open Outlook 
+2) Double click on the group 
+3) Left Click on the Group Setting on the above screen as shown in the screenshot below
+4)Then Click on Add Members
+5. Add name or email address.
+6. Save OK.
+
+
+Exchange online Archive
+
+Enabling online archive for the user’s mailbox.
+
+Steps:
+1) Open Microsoft 365 admin center (admin.exchange.microsoft.com) 
+2) Click on Recipients >> Mailboxes. 
+3) Enter the name or mail-ID in the Search area of the user which you want to do archive.
+4) Double click on the user 
+5) Pop up will come on the right side of the screen.
+6) Then Click on Other >> manage mailbox archive. 
+7) Click ON the mailbox archive.
+8) Save.
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+Long Term Retention
+Pre-requisite:- Retention of leaver’s account or user’s account for 3 month and above (With HR or Manager approval)
+Steps 
+1) Open Server manager >> select Tools >> AD User and Computers
+2) Right click on global.umusic.net >> Find.
+3) Type the user which you want to de LTR.
+4) Click Move.
+5) Move the user to Global Applications / Exchange / Long term Retention.
+6) Then Right click on user, open properties tab.
+7) Go to Attribute Editor, select Extension Attribute 2, double click.
+8) Under the value field enter the end date of the retention period (Date must be in US format mm/dd/yyyy)
+9) Under description section enter the date when the retention period is going to end.
+   (Format example: 16 March,2023 – Ticket No |)
+10) Click Apply and Save.
+
+Note:
+1) User must be disable and you got approval of manager or HR before proceeding.
+2)  Never erase the previous description. Insert your description at front and parted the previous description with sign.   
+3) Also check user have P2 (plan 2) license (for mailbox access only)
+
+-----------------------------------------------------------------------------------------------------------------------
+
+Shared Mailbox
+
+
+What to do
+1 Shared mailbox creation.
+2 Display name modification.
+3 Add/Remove Manager.
+4 SMTP modification.
+5 Delegate permission shared mailbox
+
+1. Shared mailbox creation.
+
+These are the steps to follow to create a shared mailbox:
+
+
+Steps
+1) This is the link to redirect admin center->  admin.microsoft.com 
+2) Click Recipients >> Mailboxes
+3) Then click add a shared mailbox as shown in the below picture.
+4) Then pop up will come on right side of the screen.
+5) Fill all the details as shown in the below picture.
+6) Then click create button.
+
+----------------------------------------------------------------------------------------------------------
+
+2. Display name modification.
+
+Steps
+1) Go to exchange admin centre.
+2) Click Recipients >> Mailboxes.
+3) Then double click on shared mailbox you want to change display name.
+4) Pop up will come on the right side of the screen.
+5) Then click General >> manage contact information then again pop up will come.
+6) Then change the display name.
+7) Then click save button.
+8) Then kindly allow 1 hour for change.
+
+---------------------------------------------------------------------------------------------------
+3.  Add/Remove Manager.
+
+Steps 
+1) Go to exchange admin center
+2) Click Recipients >> Mailboxes. 
+3) Then double click on shared mailbox you want add/ remove manager.
+4) Pop up will come on the right side of the screen.
+ 
+
+5) Click on Organization >> then click on manage organization information.
+6) Again, pop up will come. 
+7) In the manager section add the name if you want to add the manager, if you want to remove the manager the select the name and remove it.
+8) Click on Save button.
+
+---------------------------------------------------------------------------------------------------
+4.  SMTP modification.
+      
+Steps 
+1) Go to exchange admin center >> recipient >> Mailboxes
+2) Double click on the shared mailbox which you want to modify SMTP.
+3) Pop up will come on the right side of the screen.
+4) Go to General >> then manage email address type as shown in above figure. 
+5) Again, pop up will come. 
+6) If you want to edit then edit the smtp or you can add smtp. 
+7) Then click on save button.
+
+
+---------------------------------------------------------------------------------------------------
+
+5.   Delegate permission shared mailbox.
+
+Steps
+1) Exchange admin center >> Recipient >> mailboxes 
+2) Then double click on shared mailbox you want delegate permission.
+3) Pop up will come on the right side of the screen as shown on the below figure.
+4) Click on Delegation 
+5) If you want to give, send as permission then click on edit button of send as 
+6) For adding member click on add member 
+7) For removing, select the name and then delete it.
+8) Same process will on Full access.
+
+---------------------------------------------------------------------------------------------------
+
+
+
+User’s account password reset.
+Pre-requisite:- User must be verified by his/her Local Deskside or Manager.
+
+Steps:
+1) In Active Directory open server manager.
+2) Click on Tools >> Active Directory Users and Computers.	
+3) Click on umusic.net >> Find 
+4) Enter the name of the user which you want to do reset.
+5) Click on Find Now >> right click on the name.
+6) Click on Reset Password.
+7) Provide the new password (minimum of 20 character)
+8) Unchecked the option (user must change password at the next logon)
+9) Click on OK.
+
+
+Note:
+1. Always try to give password to person who approved to user.
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+Distribution Groups
+
+
+
+What to do
+1 DL creation
+2 Add/Remove Owner
+3 Add/Remove Manager.
+4 SMTP modification.
+
+
+i. DL creation
+1) Open Active Directory users and computers
+2) Right Click on domain name
+3) Click on new then select group 
+4) Select distribution from group type
+5) Select one of the group scope: Domain Local /Global/Universal
+6) Now Fill the Distribution List name 
+7) Press Ok  
+
+ii. Add/Remove Owner
+Add
+1. In the Name field, type in the name of the group (e.g. DIFA) and click on the Find Now button
+2. In the Search results list, double-click on the name of the group (e.g.    DIFA_MBX_GROUP)
+3. click on manage by option > add a username into it 
+4. apply OK 
+
+Remove 
+1. In the Name field, type in the name of the group (e.g., DIFA) and click on the Find Now button
+2. In the Search results list, double-click on the name of the group (e.g., DIFA_MBX_GROUP)
+3. click on manage by option > remove the name if it is there.
+4. apply OK
+Kindly Allow 1 Hour for Change.
+
+iii. Add/Remove Member
+ADD Member
+1. In the Name field, type in the name of the group (e.g. DIFA) and click on the Find Now button
+2. In the Search results list, double-click on the name of the group (e.g. DIFA_MBX_GROUP)
+3. Click on the Add... button to add new members
+4. Type in  username of the member to be added and click on the OK button
+5. Click on the Apply button and then OK
+Remove Member
+1. In the Name field, type in the name of the group (e.g. DIFA) and click on the Find Now button
+2. In the Search results list, double-click on the name of the group (e.g. DIFA_MBX_GROUP)
+3. Select the person to be removed and click on the Remove... button
+4. Click on the Yes button to confirm the deletion.
+5. Click on the Apply button and then OK
+iv. SMTP modification
+1. In the Name field, type in the name of the group (e.g. DIFA) and click on the Find Now button
+2. In the Search results list, double-click on the name of the group (e.g. DIFA_MBX_GROUP)
+3. click on attribute Editor > select proxyAddresses > add the vlue into it 
+4. apply save. 
+
+
